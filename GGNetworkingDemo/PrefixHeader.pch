@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  GGNetworkingDemo
+//
+//  Created by David on 2017/1/17.
+//  Copyright © 2017年 GangZi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NSString+HYString.h"
+#import "HYNetworkManager.h"
+#import "MBProgressHUD+HYProgressHUD.h"
+#import "MBProgressHUD.h"
+
+#define WEB_BASE_URL @"https://www.hyitong.com:554/api/"
+
+#endif /* PrefixHeader_pch */

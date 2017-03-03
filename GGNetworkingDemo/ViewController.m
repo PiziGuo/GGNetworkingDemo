@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TwoController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)push:(id)sender {
+    
+    TwoController *twoC = [[TwoController alloc] init];
+    
+    
+    [self.navigationController pushViewController:twoC animated:YES];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
